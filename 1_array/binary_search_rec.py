@@ -4,7 +4,7 @@ def binary_search_recursive(arr, low, high, x):
         return -1
 
     # Find the middle index
-    mid = (low + high) // 2
+    mid = low + ((low + high) // 2)
 
     # Check if the middle element is the value we're looking for
     if arr[mid] == x:
